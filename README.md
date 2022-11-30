@@ -1,4 +1,4 @@
-# display
+## Display App
 
 A new Flutter project.
 
