@@ -7,8 +7,8 @@ void main() {
 Widget _imageRow() {
   return Container(
     height: 250,
-    margin: EdgeInsets.only(top: 7, left: 7, right: 7, bottom: 0),
-    padding: EdgeInsets.only(
+    margin: const EdgeInsets.only(top: 7, left: 7, right: 7, bottom: 0),
+    padding: const EdgeInsets.only(
       top: 15,
       left: 5,
       right: 5,
@@ -18,158 +18,312 @@ Widget _imageRow() {
       scrollDirection: Axis.horizontal,
       children: [
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img1.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img1.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img2.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+          width: 355,
+          height: 250,
+          decoration:  BoxDecoration(
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img2.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img3.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+          width: 355,
+          height: 250,
+          decoration:  BoxDecoration(
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img3.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img4.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img4.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img5.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+          width: 355,
+          height: 250,
+          decoration:  BoxDecoration(
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img5.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img6.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img6.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img7.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img7.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img8.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img8.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img9.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img9.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img10.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img10.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
         Container(
+          width: 355,
+          height: 250,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(3),
-            ),
-          ),
-          margin: EdgeInsets.all(5),
-          child: Image.asset(
-            'images/img11.jpg',
-            width: 355,
-            height: 250,
-            fit: BoxFit.cover,
-          ),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade400,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                ),
+              ],
+              image: const DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'images/img11.jpg',
+                ),
+              )),
+          margin: const EdgeInsets.all(5),
+          // child: Image.asset(
+          //   'images/img1.jpg',
+          //   width: 355,
+          //   height: 250,
+          //   fit: BoxFit.cover,
+          // ),
         ),
       ],
     ),
@@ -593,38 +747,38 @@ class disp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          leading: Icon(
+          leading: const Icon(
             Icons.menu_outlined,
           ),
-          title: Text(
+          title: const Text(
             "Display App",
             style: TextStyle(
               fontSize: 25,
             ),
             textAlign: TextAlign.center,
           ),
-          shape: RoundedRectangleBorder(
+          shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
               Radius.circular(15),
             ),
           ),
-          backgroundColor: Color.fromARGB(255, 16, 201, 170),
+          backgroundColor: const Color.fromARGB(255, 16, 201, 170),
         ),
-        backgroundColor: Color(0xFFfafbfb),
+        backgroundColor: const Color(0xFFfafbfb),
         body: ListView(
           scrollDirection: Axis.vertical,
           children: [
             _imageRow(),
             Container(
-              padding: EdgeInsets.only(
+              padding: const EdgeInsets.only(
                 top: 1,
                 bottom: 2,
                 left: 5,
                 right: 5,
               ),
-              margin: EdgeInsets.only(bottom: 7),
+              margin: const EdgeInsets.only(bottom: 7),
               width: double.infinity,
-              child: Text(
+              child: const Text(
                 "Scroll to see more images ➡️",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 15.6),
